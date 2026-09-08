@@ -1,0 +1,311 @@
+<script async type="module" crossorigin src="/assets/main15.js"></script>
+<link rel="stylesheet" crossorigin href="/assets/main.css">
+<div class="content-box py-20 px-5" id="classroom-page">
+  <div class="flex flex-wrap items-center justify-between gap-3">
+    <a data-link="true" href="/"
+      class="inline-flex items-center gap-2 text-sm text-zinc-500 hover:text-zinc-700 dark:text-zinc-400 dark:hover:text-white">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="size-4">
+        <path fill-rule="evenodd"
+          d="M9.78 4.22a.75.75 0 0 1 0 1.06L7.06 8l2.72 2.72a.75.75 0 1 1-1.06 1.06L5.47 8.53a.75.75 0 0 1 0-1.06l3.25-3.25a.75.75 0 0 1 1.06 0Z"
+          clip-rule="evenodd" />
+      </svg>
+      Volver al inicio
+    </a>
+    <p class="text-xs uppercase tracking-wide text-zinc-500 dark:text-zinc-400">
+      Aula virtual — vista previa
+    </p>
+  </div>
+
+  <div class="mt-10 flex flex-wrap items-start justify-between gap-6">
+    <div class="space-y-3 max-w-2xl">
+      <h1 class="text-2xl font-semibold text-zinc-950 dark:text-white">Aula Virtual de la academia</h1>
+      <p class="text-sm text-zinc-600 dark:text-zinc-400">
+        Centraliza tus recursos (Google Classroom, simulacros y plantillas) y obtén una vista rápida de cada flujo sin
+        salir del panel principal.
+      </p>
+    </div>
+    <div class="flex items-center gap-3 text-sm">
+      <div class="rounded-2xl border border-zinc-200 bg-white px-4 py-3 text-left shadow-xs dark:border-white/10 dark:bg-zinc-900">
+        <p class="text-xs font-semibold uppercase text-zinc-500 dark:text-zinc-300">Integraciones activas</p>
+        <p class="text-2xl font-semibold text-zinc-950 dark:text-white">3</p>
+      </div>
+      <div class="rounded-2xl border border-zinc-200 bg-white px-4 py-3 text-left shadow-xs dark:border-white/10 dark:bg-zinc-900">
+        <p class="text-xs font-semibold uppercase text-zinc-500 dark:text-zinc-300">Última sincronización</p>
+        <p class="text-2xl font-semibold text-zinc-950 dark:text-white">Hoy</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Overview -->
+  <div class="mt-10 space-y-10" data-classroom-overview>
+    <section class="space-y-4">
+      <div class="flex items-center justify-between">
+        <div>
+          <h2 class="text-base font-semibold text-zinc-950 dark:text-white">Espacios conectados</h2>
+          <p class="text-sm text-zinc-500 dark:text-zinc-400">Selecciona un espacio para ver los materiales y la
+            narrativa asociada.</p>
+        </div>
+      </div>
+      <div class="grid gap-6 lg:grid-cols-3">
+        <button type="button"
+          class="group flex h-full flex-col rounded-3xl border border-zinc-200 bg-white/90 p-5 text-left shadow-xs transition hover:-translate-y-0.5 hover:border-emerald-400 focus-visible:outline-solid focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-500 dark:border-white/10 dark:bg-zinc-900"
+          data-topic-id="google-classroom"
+          data-topic-title="Google Classroom"
+          data-topic-subtitle="Aulas oficiales del grupo"
+          data-topic-description="Integra la clase con Classroom para mantener sincronizados anuncios, deberes y rúbricas. Ideal cuando varios tutores colaboran en paralelo."
+          data-topic-duration="15 min"
+          data-topic-level="Integración"
+          data-topic-progress="42"
+          data-topic-video="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          data-topic-pdf="https://mozilla.github.io/pdf.js/web/compressed.tracemonkey-pldi-09.pdf"
+          data-topic-points="Publica recordatorios y anuncios desde el panel|Sincroniza tus temas con Classroom para compartir nombres y materiales oficiales|Redirige a tu alumnado a las salas correctas en un clic"
+          data-topic-outline="Revisar el tablón|Programar recordatorios|Compartir enlaces rápidos"
+          data-topic-next="Abrir Google Classroom"
+          data-topic-next-url="https://classroom.google.com/"
+          data-topic-summary="La integración con Classroom se refresca cada 15 minutos para que puedas reaccionar cuando alguien entrega o comenta un trabajo.">
+          <div class="flex items-center justify-between gap-3">
+            <div class="space-y-1">
+              <p class="text-sm font-semibold text-zinc-500 dark:text-zinc-400">Integración principal</p>
+              <h3 class="text-lg font-semibold text-zinc-900 dark:text-white">Google Classroom</h3>
+            </div>
+            <span class="inline-flex items-center rounded-full bg-emerald-50 px-3 py-1 text-xs font-semibold text-emerald-700 dark:bg-emerald-400/10 dark:text-emerald-100">Activo</span>
+          </div>
+          <p class="mt-3 text-sm text-zinc-600 dark:text-zinc-300">
+            Centraliza tareas, devoluciones y plantillas oficiales en un solo clic.
+          </p>
+          <div class="mt-4 flex items-center gap-2 text-xs text-zinc-500 dark:text-zinc-400">
+            <div class="h-1.5 flex-1 rounded-full bg-zinc-100 dark:bg-white/5">
+              <div class="h-full rounded-full bg-linear-to-r from-emerald-400 to-emerald-600" style="width:42%"></div>
+            </div>
+            42% del equipo activo esta semana
+          </div>
+        </button>
+
+        <button type="button"
+          class="group flex h-full flex-col rounded-3xl border border-zinc-200 bg-white/90 p-5 text-left shadow-xs transition hover:-translate-y-0.5 hover:border-blue-400 focus-visible:outline-solid focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-500 dark:border-white/10 dark:bg-zinc-900"
+          data-topic-id="simulacros"
+          data-topic-title="Simulacros guiados"
+          data-topic-subtitle="Sesiones tipo examen"
+          data-topic-description="Prepara simulacros con tiempos y bloques definidos. El aula guía a los alumnos y permite recopilar incidencias en directo."
+          data-topic-duration="45 min"
+          data-topic-level="Planificación"
+          data-topic-progress="68"
+          data-topic-video="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          data-topic-pdf="https://mozilla.github.io/pdf.js/web/compressed.tracemonkey-pldi-09.pdf"
+          data-topic-points="Activa cronómetros oficiales por bloque|Comparte plantillas de respuesta descargables|Añade recordatorios automáticos antes del simulacro"
+          data-topic-outline="Configurar bloques|Arrancar simulacro|Recoger incidencias"
+          data-topic-next="Ir a filtros de simulacro"
+          data-topic-next-url="/simulation/filters"
+          data-topic-summary="Cuando actives esta vista se sincronizarán automáticamente tus últimas sesiones de simulacro para que puedas reutilizar parámetros.">
+          <div class="flex items-center justify-between gap-3">
+            <div class="space-y-1">
+              <p class="text-sm font-semibold text-zinc-500 dark:text-zinc-400">Entrenamiento</p>
+              <h3 class="text-lg font-semibold text-zinc-900 dark:text-white">Simulacros guiados</h3>
+            </div>
+            <span class="inline-flex items-center rounded-full bg-blue-50 px-3 py-1 text-xs font-semibold text-blue-700 dark:bg-blue-400/10 dark:text-blue-100">Listo</span>
+          </div>
+          <p class="mt-3 text-sm text-zinc-600 dark:text-zinc-300">
+            Ensaya tiempos reales y valida qué temas necesitan refuerzo inmediato.
+          </p>
+          <div class="mt-4 flex items-center gap-2 text-xs text-zinc-500 dark:text-zinc-400">
+            <div class="h-1.5 flex-1 rounded-full bg-zinc-100 dark:bg-white/5">
+              <div class="h-full rounded-full bg-linear-to-r from-blue-400 to-blue-600" style="width:68%"></div>
+            </div>
+            3 simulacros listos esta semana
+          </div>
+        </button>
+
+        <button type="button"
+          class="group flex h-full flex-col rounded-3xl border border-zinc-200 bg-white/90 p-5 text-left shadow-xs transition hover:-translate-y-0.5 hover:border-amber-400 focus-visible:outline-solid focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-amber-500 dark:border-white/10 dark:bg-zinc-900"
+          data-topic-id="recursos"
+          data-topic-title="Banco de recursos"
+          data-topic-subtitle="Plantillas y checklists"
+          data-topic-description="Comparte plantillas, rúbricas y listas de comprobación para que el equipo use siempre la versión correcta."
+          data-topic-duration="10 min"
+          data-topic-level="Documentación"
+          data-topic-progress="54"
+          data-topic-video="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          data-topic-pdf="https://mozilla.github.io/pdf.js/web/compressed.tracemonkey-pldi-09.pdf"
+          data-topic-points="Sube plantillas maestras y compártelas como vista previa o descarga|Ordena recursos por temática para encontrarlos en segundos|Comparte enlaces permanentes con tus alumnos"
+          data-topic-outline="Actualizar plantilla|Compartir checklist|Confirmar recepción"
+          data-topic-next="Gestionar preguntas"
+          data-topic-next-url="/questions"
+          data-topic-summary="Todo lo que publiques aquí queda asociado al aula y lo podrás reutilizar en preguntas o estudios dirigidos.">
+          <div class="flex items-center justify-between gap-3">
+            <div class="space-y-1">
+              <p class="text-sm font-semibold text-zinc-500 dark:text-zinc-400">Recursos</p>
+              <h3 class="text-lg font-semibold text-zinc-900 dark:text-white">Banco de recursos</h3>
+            </div>
+            <span class="inline-flex items-center rounded-full bg-amber-50 px-3 py-1 text-xs font-semibold text-amber-700 dark:bg-amber-400/10 dark:text-amber-100">Actualizado</span>
+          </div>
+          <p class="mt-3 text-sm text-zinc-600 dark:text-zinc-300">
+            Comparte guías rápidas, rúbricas y material de apoyo reutilizable.
+          </p>
+          <div class="mt-4 flex items-center gap-2 text-xs text-zinc-500 dark:text-zinc-400">
+            <div class="h-1.5 flex-1 rounded-full bg-zinc-100 dark:bg-white/5">
+              <div class="h-full rounded-full bg-linear-to-r from-amber-400 to-rose-500" style="width:54%"></div>
+            </div>
+            12 plantillas disponibles
+          </div>
+        </button>
+      </div>
+    </section>
+
+    <section class="rounded-3xl border border-dashed border-zinc-200 bg-white/80 p-6 shadow-xs dark:border-white/10 dark:bg-zinc-900/80">
+      <div class="flex flex-wrap items-center justify-between gap-4">
+        <div>
+          <h2 class="text-base font-semibold text-zinc-950 dark:text-white">Atajos frecuentes</h2>
+          <p class="text-sm text-zinc-500 dark:text-zinc-400">Continúa con los módulos que más usas sin abandonar este panel.</p>
+        </div>
+        <div class="flex flex-wrap gap-2">
+          <a data-link="true" href="/study/filters"
+            class="rounded-full border border-zinc-200 px-4 py-1 text-sm font-semibold text-zinc-700 hover:bg-zinc-100 dark:border-white/15 dark:text-zinc-200 dark:hover:bg-white/10">
+            Estudio dirigido
+          </a>
+          <a data-link="true" href="/lessons/names"
+            class="rounded-full border border-zinc-200 px-4 py-1 text-sm font-semibold text-zinc-700 hover:bg-zinc-100 dark:border-white/15 dark:text-zinc-200 dark:hover:bg-white/10">
+            Temas
+          </a>
+          <a data-link="true" href="/questions"
+            class="rounded-full border border-zinc-200 px-4 py-1 text-sm font-semibold text-zinc-700 hover:bg-zinc-100 dark:border-white/15 dark:text-zinc-200 dark:hover:bg-white/10">
+            Banco de preguntas
+          </a>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- Detail view -->
+  <div class="mt-10 hidden" data-classroom-detail>
+    <button type="button" data-classroom-back
+      class="inline-flex items-center gap-2 text-sm font-semibold text-emerald-600 hover:text-emerald-500 dark:text-emerald-300 dark:hover:text-emerald-200">
+      <svg class="size-4" viewBox="0 0 16 16" fill="currentColor">
+        <path fill-rule="evenodd"
+          d="M9.78 4.22a.75.75 0 0 1 0 1.06L7.06 8l2.72 2.72a.75.75 0 1 1-1.06 1.06L5.47 8.53a.75.75 0 0 1 0-1.06l3.25-3.25a.75.75 0 0 1 1.06 0Z"
+          clip-rule="evenodd" />
+      </svg>
+      Volver al listado de espacios
+    </button>
+
+    <div class="mt-6 rounded-[32px] border border-zinc-200 bg-white shadow-xl dark:border-white/10 dark:bg-zinc-950" data-detail-shell>
+      <div class="grid gap-8 lg:grid-cols-[minmax(0,1.6fr)_minmax(0,1fr)]">
+        <section class="space-y-6 border-b border-zinc-100 px-6 py-8 lg:border-b-0 lg:border-r dark:border-white/5">
+          <div class="space-y-2">
+            <p class="text-xs font-semibold uppercase tracking-wide text-zinc-500 dark:text-zinc-400" data-detail-subtitle>Integración</p>
+            <div class="flex flex-wrap items-center gap-3">
+              <h2 class="text-2xl font-semibold text-zinc-950 dark:text-white" data-detail-title>Google Classroom</h2>
+              <span class="rounded-full border border-emerald-200 bg-emerald-50 px-3 py-0.5 text-xs font-semibold text-emerald-700 dark:border-emerald-400/40 dark:bg-emerald-400/10 dark:text-emerald-100"
+                data-detail-level>Pendiente</span>
+            </div>
+            <p class="text-sm text-zinc-600 dark:text-zinc-400" data-detail-description>
+              Integra la clase con Classroom para mantener sincronizados anuncios, deberes y rúbricas.
+            </p>
+          </div>
+
+          <div class="grid gap-4 sm:grid-cols-2">
+            <div class="rounded-2xl border border-zinc-200 bg-zinc-50/80 px-4 py-3 dark:border-white/10 dark:bg-white/5">
+              <p class="text-xs font-semibold uppercase text-zinc-500 dark:text-zinc-400">Duración estimada</p>
+              <p class="text-xl font-semibold text-zinc-950 dark:text-white" data-detail-duration>15 min</p>
+            </div>
+            <div class="rounded-2xl border border-zinc-200 bg-zinc-50/80 px-4 py-3 dark:border-white/10 dark:bg-white/5">
+              <p class="text-xs font-semibold uppercase text-zinc-500 dark:text-zinc-400">Uso reciente</p>
+              <div class="mt-2 flex items-center gap-2 text-sm text-zinc-700 dark:text-zinc-200">
+                <div class="h-1.5 flex-1 rounded-full bg-white dark:bg-zinc-800">
+                  <div class="h-full rounded-full bg-linear-to-r from-emerald-400 to-emerald-600" data-detail-progress-bar style="width:0%"></div>
+                </div>
+                <span data-detail-progress-label>0%</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="rounded-2xl border border-zinc-200 bg-white px-4 pb-4 pt-3 shadow-xs dark:border-white/10 dark:bg-zinc-900">
+            <div class="inline-flex gap-1 rounded-full border border-zinc-200 bg-zinc-50 px-2 py-0.5 text-xs font-semibold text-zinc-600 dark:border-white/5 dark:bg-white/5 dark:text-zinc-200">
+              Material activo
+            </div>
+            <div class="mt-3 flex items-center gap-3 text-sm text-zinc-600 dark:text-zinc-300">
+              <div class="inline-flex items-center gap-1 rounded-full border border-zinc-200 bg-white px-3 py-1 text-xs font-semibold text-zinc-700 dark:border-white/10 dark:bg-zinc-800 dark:text-zinc-100">
+                <span class="size-2 rounded-full bg-emerald-400"></span>
+                Video
+              </div>
+              <div class="inline-flex items-center gap-1 rounded-full border border-zinc-200 bg-white px-3 py-1 text-xs font-semibold text-zinc-700 dark:border-white/10 dark:bg-zinc-800 dark:text-zinc-100">
+                PDF
+              </div>
+            </div>
+
+            <div class="mt-4 flex flex-wrap gap-2 text-xs" data-detail-tabs>
+              <button type="button" data-detail-tab="video"
+                class="inline-flex items-center gap-2 rounded-full border border-zinc-200 bg-zinc-50 px-3 py-1 font-semibold text-zinc-900 dark:border-white/10 dark:bg-white/10 dark:text-white">
+                <span class="size-4 rounded-full bg-zinc-900 text-white dark:bg-white dark:text-zinc-900 flex items-center justify-center">
+                  <svg class="size-2.5" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M8 5v14l11-7z" />
+                  </svg>
+                </span>
+                Video
+              </button>
+              <button type="button" data-detail-tab="pdf"
+                class="inline-flex items-center gap-2 rounded-full border border-transparent px-3 py-1 font-semibold text-zinc-600 hover:border-zinc-300 dark:text-zinc-300">
+                <span class="size-4 rounded-full bg-zinc-100 text-zinc-600 dark:bg-zinc-800 dark:text-zinc-200 flex items-center justify-center">
+                  <svg class="size-2.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7">
+                    <rect x="5" y="3" width="14" height="18" rx="2"></rect>
+                    <line x1="9" y1="8" x2="15" y2="8"></line>
+                    <line x1="9" y1="12" x2="13" y2="12"></line>
+                    <line x1="9" y1="16" x2="12" y2="16"></line>
+                  </svg>
+                </span>
+                PDF
+              </button>
+            </div>
+
+            <div class="mt-4 space-y-4">
+              <div data-detail-panel="video">
+                <div class="aspect-video overflow-hidden rounded-2xl border border-zinc-200 bg-black/5 dark:border-white/10 dark:bg-white/5">
+                  <video data-detail-video controls preload="metadata" class="size-full object-cover">
+                    <source src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4" type="video/mp4">
+                  </video>
+                </div>
+                <p class="mt-2 text-xs text-zinc-500 dark:text-zinc-400" data-detail-video-status>Listo para reproducir</p>
+              </div>
+              <div class="hidden" data-detail-panel="pdf">
+                <div class="h-64 overflow-hidden rounded-2xl border border-zinc-200 dark:border-white/10">
+                  <iframe data-detail-pdf class="size-full border-none" title="Material PDF"
+                    src="https://mozilla.github.io/pdf.js/web/compressed.tracemonkey-pldi-09.pdf#toolbar=0&zoom=page-width"></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <aside class="space-y-5 px-6 py-8">
+          <div class="rounded-3xl border border-zinc-200 bg-zinc-50/80 p-5 dark:border-white/10 dark:bg-white/5">
+            <p class="text-sm font-semibold text-zinc-900 dark:text-white">Puntos clave</p>
+            <ul class="mt-4 space-y-3 text-sm text-zinc-600 dark:text-zinc-300" data-detail-points>
+              <li>Selecciona un espacio para ver los detalles.</li>
+            </ul>
+          </div>
+
+          <div class="rounded-3xl border border-zinc-200 bg-white p-5 shadow-xs dark:border-white/10 dark:bg-zinc-900">
+            <p class="text-sm font-semibold text-zinc-900 dark:text-white">Próximos pasos</p>
+            <ol class="mt-4 list-decimal space-y-2 pl-5 text-sm text-zinc-600 dark:text-zinc-300" data-detail-outline>
+              <li>Pendiente de selección.</li>
+            </ol>
+          </div>
+
+          <div class="rounded-3xl border border-zinc-200 bg-zinc-50/80 p-5 dark:border-white/10 dark:bg-white/5">
+            <p class="text-sm font-semibold text-zinc-900 dark:text-white">Resumen</p>
+            <p class="mt-3 text-sm text-zinc-600 dark:text-zinc-300" data-detail-summary>
+              Selecciona un espacio para cargar su información principal, video y documentos.
+            </p>
+            <a data-detail-link href="#" target="_blank" rel="noreferrer"
+              class="mt-4 inline-flex items-center justify-center gap-2 rounded-full bg-linear-to-r from-emerald-400 via-emerald-500 to-emerald-600 px-4 py-2 text-sm font-semibold text-white shadow-xs transition hover:brightness-105">
+              <span data-detail-next>Continuar</span>
+              <svg class="size-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M5 12h14"></path>
+                <path d="M13 6l6 6-6 6"></path>
+              </svg>
+            </a>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </div>
+</div>
